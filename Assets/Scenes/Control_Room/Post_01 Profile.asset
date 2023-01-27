@@ -15,13 +15,13 @@ MonoBehaviour:
   active: 1
   m_AdvancedMode: 0
   lift:
-    m_OverrideState: 0
-    m_Value: {x: 1, y: 1, z: 1, w: 0}
+    m_OverrideState: 1
+    m_Value: {x: 1, y: 0.99010223, z: 0.96040833, w: 0}
   gamma:
-    m_OverrideState: 0
-    m_Value: {x: 1, y: 1, z: 1, w: 0}
+    m_OverrideState: 1
+    m_Value: {x: 0.8851157, y: 1, z: 0.9176185, w: 0}
   gain:
-    m_OverrideState: 0
+    m_OverrideState: 1
     m_Value: {x: 1, y: 1, z: 1, w: 0}
 --- !u!114 &11400000
 MonoBehaviour:
@@ -38,6 +38,7 @@ MonoBehaviour:
   components:
   - {fileID: 7701464774269194792}
   - {fileID: 2903157106462180302}
+  - {fileID: -2596472742074566944}
 --- !u!114 &2903157106462180302
 MonoBehaviour:
   m_ObjectHideFlags: 3
@@ -109,7 +110,7 @@ MonoBehaviour:
     max: 100
   colorFilter:
     m_OverrideState: 1
-    m_Value: {r: 0.9056604, g: 0.36862746, b: 0.2264151, a: 1}
+    m_Value: {r: 0.9716981, g: 0.3655393, b: 0.2062567, a: 1}
     hdr: 1
     showAlpha: 0
     showEyeDropper: 1
